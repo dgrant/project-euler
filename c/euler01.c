@@ -7,5 +7,5 @@ int sumOfMultiples(max, multiple) {
 
 int main(int argc, char** argv) {
     int sum = sumOfMultiples(999,3) + sumOfMultiples(999,5) - sumOfMultiples(999,15);
-    printf("sum=%d\n", sum);
+    printf("%d\n", sum);
 }

@@ -25,5 +25,5 @@ int largestPrimeFactor(long number) {
 
 int main(int argc, char** argv) {
   int result = largestPrimeFactor(600851475143);
-  printf("answer=%d\n", result);
+  printf("%d\n", result);
 }

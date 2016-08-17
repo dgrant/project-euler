@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 const int divisors[] = {19,18,17,16,15,14,13,12,11};
 
 int check(int n) {
@@ -21,4 +23,9 @@ int find(int max) {
         }
     }
     return guess;
+}
+
+int main() {
+    int answer = find(20);
+    printf("%d\n", answer);
 }

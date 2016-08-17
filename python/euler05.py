@@ -14,5 +14,5 @@ while True:
         break
     else:
         guess += 20
-print guess
-print "took=",time.time() - startTime
+print(guess)
+print("took=",time.time() - startTime)

@@ -14,5 +14,5 @@ int main(int argc, char** argv) {
     val = i + j;
   }
 
-  printf("sum=%d\n", sum);
+  printf("%d\n", sum);
 }

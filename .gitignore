@@ -6,3 +6,5 @@ euler05
 euler12
 *.pyc
 *.so
+*.iml
+.idea/
